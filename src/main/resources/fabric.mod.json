@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "disable_integrated_server_online_mode_mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Disable Integrated Server OnlineMode Mod",
+  "description": "Disable Integrated Server OnlineMode",
   "authors": [
-    "Me!"
+    "plusls"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://blog.plusls.com/",
+    "sources": "https://github.com/uestclug/DisableIntegratedServerOnlineMode"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/disable_integrated_server_online_mode/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.plusls.DisableIntegratedServerOnlineMode.DisableIntegratedServerOnlineModeMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "disable_integrated_server_online_mode.mixins.json"
   ],
 
   "depends": {
